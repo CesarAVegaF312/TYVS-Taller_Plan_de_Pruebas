@@ -1,0 +1,9 @@
+id,descripcion,impacto,probabilidad
+R1,"La persona no puede ser nula: INVALID",2,1
+R2,"El documento debe ser positivo (id > 0): INVALID",,
+R3,"La persona debe estar viva: DEAD",,
+R4,"La edad debe estar entre 0 y 120: INVALID_AGE",,
+R5,"La persona debe ser mayor de edad (edad >= 18): UNDERAGE",3,2
+R6,"Una sola inscripcion por documento: DUPLICATED",3,1
+R7,"Si cumple todas las reglas anteriores queda inscrita: VALID",,
+RNF-01,"Ninguna entrada, por malformada que sea, produce un error 500",,

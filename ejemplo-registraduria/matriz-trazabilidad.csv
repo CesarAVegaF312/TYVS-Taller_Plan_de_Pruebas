@@ -1,0 +1,7 @@
+caso,requisitos,tecnica,entrada,resultado_esperado
+CP-01,R1,CLASE_EQUIVALENCIA,"persona = null",INVALID
+CP-02,R5,VALOR_LIMITE,"id=101, edad=17, viva",UNDERAGE
+CP-03,R5|R7,VALOR_LIMITE,"id=102, edad=18, viva",VALID
+CP-04,R5,CLASE_EQUIVALENCIA,"id=103, edad=10, viva",UNDERAGE
+CP-05,R3,CLASE_EQUIVALENCIA,"id=104, edad=40, no viva",DEAD
+CP-06,R3|R5,TABLA_DECISION,"id=105, edad=15, no viva (dos reglas fallan a la vez)",DEAD

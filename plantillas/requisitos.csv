@@ -1,0 +1,3 @@
+id,descripcion,impacto,probabilidad
+R1,"Reemplace esta fila: un requisito verificable, con su regla y su resultado",3,2
+R2,"En agil, use el id de la historia (HU-01) y resuma su criterio de aceptacion",1,1
